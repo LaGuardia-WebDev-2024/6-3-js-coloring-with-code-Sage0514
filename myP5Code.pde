@@ -8,21 +8,17 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(1);
+  strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
+  fill(51, 168, 255);
+  ellipse(200, 300, 150, 150); // bottom circle
   
-  // The ground
-  rect(0, 300, 400, 100);  
-
-  // The sun
-  ellipse(80, 64, 100, 100);  
-
-  // The snowman
-  ellipse(200, 300, 150, 150);
-  ellipse(200, 200, 100, 100);
-  ellipse(200, 120, 75, 75);
+  fill(148, 209, 255);
+  ellipse(200, 200, 100, 100); // middle circle
   
+  fill(210, 236, 255);
+  ellipse(200, 120, 75, 75); // top circle
 
 }
 

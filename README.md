@@ -1,24 +1,18 @@
-# 6-3-JS-Coloring-with-Code
+# 6-2-JS-Drawing-More-Shapes-with-Code
 
 ## Video
-[Video](https://youtu.be/xNRV1l0d1Ug) <-- Make sure to watch this video first
+[Video](https://youtu.be/Lf-F-VYz81Y) <-- Make sure to watch this video first
 
 ## Directions 
-### Step #1 - Color the sky! <br>
-We've drawn a snowperson on a sunny day, and you'll add color to this drawing so that the snowperson knows how sunny it really is!         
+### Step #1 - Draw the ground <br>
+We've drawn a snowperson like you made in the first challenge, and now you're going to draw more shapes using the commands you just learned.         
 <br>
-Start off by using the  `background()`  command <b> on line 4 </b> to change the color of the sky (Blue might be a nice color to use).      
+In this first step, use the  `rect()`  command to draw the ground, so that the snowperson isn't just floating in air. You should add your  `rect()`  command before the  `ellipse()`  commands for the snowperson, so that the snowperson looks like he is in front of the ground.       
 <br>
-### Step #2 - Color the ground! <br>
-Use the  `fill()`  command to change the color of the ground (Green might be a nice color to use).      
+### Step #2 - Make him wave! <br>
+Now you'll make it look like the snowperson is waving by adding arms on both sides of his body, using the  `line()`  command.        
 <br>
-Remember that, you'll need the  `fill()`  command to come before the  `rect()`  command that draws the ground. Don't worry if the color of the other shapes changes too, you'll fix them later!
+You will need to add two  `line()`  commands, one for each arm. You should add your  `line()`  commands after the  `ellipse()`  commands for the snowperson, so that the arms look like they are in front of the snowperson. 
 <br>
-### Step #3 - Color the ground! <br>
-Now, add another  `fill()`  command to change the color of the sun (Orange or yellow might be nice colors to use). Don't worry if the color of the snowperson changes too, you'll fix him next!     
-<br>
-### Step #4 - What about the snowperson!? <br>
-Now, add another  `fill()`  command to change the color of the snowperson (White might be a nice color to use). All three parts of the snowperson's body should be one color, not three different colors, so you only need to add one  `fill()`  command for this step.
-<br>
-### Step #5 - Play! <br>
+### Step #3 - Play! <br>
 Add other elements to your snowperson scene.
